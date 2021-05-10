@@ -1,0 +1,171 @@
+2021-05-05 16:10:11 pid:1 Error: Class "Workerman\Mqtt\Client" not found in D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php:15
+Stack trace:
+#0 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(2404): {closure}(Object(Workerman\Worker))
+#1 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1406): Workerman\Worker->run()
+#2 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1349): Workerman\Worker::forkWorkersForWindows()
+#3 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#4 D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php(24): Workerman\Worker::runAll()
+#5 {main}
+2021-05-05 16:10:12 pid:1 Worker process terminated
+2021-05-05 16:12:35 pid:1 Error: Class "Workerman\Mqtt\Client" not found in D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php:15
+Stack trace:
+#0 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(2404): {closure}(Object(Workerman\Worker))
+#1 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1406): Workerman\Worker->run()
+#2 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1349): Workerman\Worker::forkWorkersForWindows()
+#3 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#4 D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php(24): Workerman\Worker::runAll()
+#5 {main}
+2021-05-05 16:12:36 pid:1 Worker process terminated
+2021-05-05 16:23:36 pid:1 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php on line 2404 and exactly 2 expected in D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php:14
+Stack trace:
+#0 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(2404): {closure}(Object(Workerman\Worker))
+#1 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1406): Workerman\Worker->run()
+#2 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1349): Workerman\Worker::forkWorkersForWindows()
+#3 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#4 D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php(40): Workerman\Worker::runAll()
+#5 {main}
+2021-05-05 16:23:37 pid:1 Worker process terminated
+2021-05-05 16:24:18 pid:1 Error: Class "Workerman\Mqtt\Client" not found in D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php:33
+Stack trace:
+#0 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(2404): {closure}(Object(Workerman\Worker))
+#1 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1406): Workerman\Worker->run()
+#2 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1349): Workerman\Worker::forkWorkersForWindows()
+#3 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#4 D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php(42): Workerman\Worker::runAll()
+#5 {main}
+2021-05-05 16:24:19 pid:1 Worker process terminated
+2021-05-05 16:26:05 pid:1 Error: Class "Workerman\Mqtt\Client" not found in D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php:33
+Stack trace:
+#0 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(2404): {closure}(Object(Workerman\Worker))
+#1 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1406): Workerman\Worker->run()
+#2 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1349): Workerman\Worker::forkWorkersForWindows()
+#3 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#4 D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php(42): Workerman\Worker::runAll()
+#5 {main}
+2021-05-05 16:26:06 pid:1 Worker process terminated
+2021-05-05 16:26:49 pid:1 Error: Class "Workerman\Mqtt\Client" not found in D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php:27
+Stack trace:
+#0 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(2404): {closure}(Object(Workerman\Worker))
+#1 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1406): Workerman\Worker->run()
+#2 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1349): Workerman\Worker::forkWorkersForWindows()
+#3 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#4 D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php(33): Workerman\Worker::runAll()
+#5 {main}
+2021-05-05 16:26:50 pid:1 Worker process terminated
+2021-05-05 16:29:11 pid:1 Error: Class "Workerman\Mqtt\Client" not found in D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php:29
+Stack trace:
+#0 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(2404): {closure}(Object(Workerman\Worker))
+#1 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1406): Workerman\Worker->run()
+#2 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1349): Workerman\Worker::forkWorkersForWindows()
+#3 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#4 D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php(35): Workerman\Worker::runAll()
+#5 {main}
+2021-05-05 16:29:12 pid:1 Worker process terminated
+2021-05-05 16:30:14 pid:1 Error: Class "Workerman\Mqtt\Client" not found in D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php:29
+Stack trace:
+#0 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(2404): {closure}(Object(Workerman\Worker))
+#1 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1406): Workerman\Worker->run()
+#2 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1349): Workerman\Worker::forkWorkersForWindows()
+#3 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#4 D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php(35): Workerman\Worker::runAll()
+#5 {main}
+2021-05-05 16:30:15 pid:1 Worker process terminated
+2021-05-05 16:30:16 pid:1 Error: Class "Workerman\Mqtt\Client" not found in D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php:29
+Stack trace:
+#0 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(2404): {closure}(Object(Workerman\Worker))
+#1 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1406): Workerman\Worker->run()
+#2 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1349): Workerman\Worker::forkWorkersForWindows()
+#3 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#4 D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php(35): Workerman\Worker::runAll()
+#5 {main}
+2021-05-05 16:30:17 pid:1 Worker process terminated
+2021-05-05 16:30:54 pid:1 Error: Class "Workerman\Mqtt\Client" not found in D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php:29
+Stack trace:
+#0 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(2404): {closure}(Object(Workerman\Worker))
+#1 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1406): Workerman\Worker->run()
+#2 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1349): Workerman\Worker::forkWorkersForWindows()
+#3 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#4 D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php(35): Workerman\Worker::runAll()
+#5 {main}
+2021-05-05 16:30:55 pid:1 Worker process terminated
+2021-05-05 16:30:55 pid:1 Error: Class "Workerman\Mqtt\Client" not found in D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php:29
+Stack trace:
+#0 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(2404): {closure}(Object(Workerman\Worker))
+#1 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1406): Workerman\Worker->run()
+#2 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1349): Workerman\Worker::forkWorkersForWindows()
+#3 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#4 D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php(35): Workerman\Worker::runAll()
+#5 {main}
+2021-05-05 16:30:56 pid:1 Worker process terminated
+2021-05-05 16:31:30 pid:1 Error: Class "Workerman\Mqtt\Client" not found in D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php:29
+Stack trace:
+#0 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(2404): {closure}(Object(Workerman\Worker))
+#1 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1406): Workerman\Worker->run()
+#2 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1349): Workerman\Worker::forkWorkersForWindows()
+#3 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#4 D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php(35): Workerman\Worker::runAll()
+#5 {main}
+2021-05-05 16:31:31 pid:1 Worker process terminated
+2021-05-05 16:31:35 pid:1 Error: Class "Workerman\Mqtt\Client" not found in D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php:29
+Stack trace:
+#0 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(2404): {closure}(Object(Workerman\Worker))
+#1 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1406): Workerman\Worker->run()
+#2 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1349): Workerman\Worker::forkWorkersForWindows()
+#3 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#4 D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php(35): Workerman\Worker::runAll()
+#5 {main}
+2021-05-05 16:31:36 pid:1 Worker process terminated
+2021-05-08 08:49:58 pid:1 Error: Class "Workerman\Mqtt\Client" not found in D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php:29
+Stack trace:
+#0 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(2404): {closure}(Object(Workerman\Worker))
+#1 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1406): Workerman\Worker->run()
+#2 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1349): Workerman\Worker::forkWorkersForWindows()
+#3 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#4 D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php(35): Workerman\Worker::runAll()
+#5 {main}
+2021-05-08 08:49:59 pid:1 Worker process terminated
+2021-05-08 08:51:13 pid:1 Error: Class "Workerman\Mqtt\Client" not found in D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php:29
+Stack trace:
+#0 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(2404): {closure}(Object(Workerman\Worker))
+#1 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1406): Workerman\Worker->run()
+#2 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1349): Workerman\Worker::forkWorkersForWindows()
+#3 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#4 D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php(35): Workerman\Worker::runAll()
+#5 {main}
+2021-05-08 08:51:14 pid:1 Worker process terminated
+2021-05-08 09:02:20 pid:1 Error: Class "Workerman\Mqtt\Client" not found in D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php:29
+Stack trace:
+#0 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(2404): {closure}(Object(Workerman\Worker))
+#1 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1406): Workerman\Worker->run()
+#2 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1349): Workerman\Worker::forkWorkersForWindows()
+#3 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#4 D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php(35): Workerman\Worker::runAll()
+#5 {main}
+2021-05-08 09:02:21 pid:1 Worker process terminated
+2021-05-08 10:03:48 pid:1 Error: Class "Workerman\Mqtt\Client" not found in D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php:29
+Stack trace:
+#0 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(2404): {closure}(Object(Workerman\Worker))
+#1 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1406): Workerman\Worker->run()
+#2 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1349): Workerman\Worker::forkWorkersForWindows()
+#3 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#4 D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php(35): Workerman\Worker::runAll()
+#5 {main}
+2021-05-08 10:03:49 pid:1 Worker process terminated
+2021-05-08 10:03:49 pid:1 Error: Class "Workerman\Mqtt\Client" not found in D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php:29
+Stack trace:
+#0 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(2404): {closure}(Object(Workerman\Worker))
+#1 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1406): Workerman\Worker->run()
+#2 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1349): Workerman\Worker::forkWorkersForWindows()
+#3 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#4 D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php(35): Workerman\Worker::runAll()
+#5 {main}
+2021-05-08 10:03:50 pid:1 Worker process terminated
+2021-05-08 14:05:11 pid:1 Error: Class "Workerman\Mqtt\Client" not found in D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php:29
+Stack trace:
+#0 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(2404): {closure}(Object(Workerman\Worker))
+#1 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1406): Workerman\Worker->run()
+#2 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(1349): Workerman\Worker::forkWorkersForWindows()
+#3 D:\XAMPP\htdocs\IoT\light_function\Workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#4 D:\XAMPP\htdocs\IoT\light_function\mqtt_light_report.php(37): Workerman\Worker::runAll()
+#5 {main}
+2021-05-08 14:05:12 pid:1 Worker process terminated
