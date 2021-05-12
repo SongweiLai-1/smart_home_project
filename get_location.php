@@ -1,27 +1,30 @@
 <?php
+
 // PHP code to obtain country, city,
 // continent, etc using IP Address
 
-$ip = $_SESSION['cus_ip'];
-
 // Use JSON encoded string and converts
 // it into a PHP variable
-$ipdat = @json_decode(file_get_contents(
-"http://www.geoplugin.net/json.gp?ip=" . $ip));
 
-$country_name = $ipdat->geoplugin_countryName ;
-$city_name = $ipdat->geoplugin_city;
-$Continent_Name=$ipdat->geoplugin_continentName;
-$Latitude = $ipdat->geoplugin_latitude;
-$Longitude = $ipdat->geoplugin_longitude;
-$time_zone = $ipdat->geoplugin_timezone ;
+function get_location(){
+    $ipdat = @json_decode(file_get_contents(
+        "http://www.geoplugin.net/json.gp?ip=".$ip));
 
-echo 'Country Name: ' . $ipdat->geoplugin_countryName . "\n";
-echo 'City Name: ' . $ipdat->geoplugin_city . "\n";
-echo 'Continent Name: ' . $ipdat->geoplugin_continentName . "\n";
-echo 'Latitude: ' . $ipdat->geoplugin_latitude . "\n";
-echo 'Longitude: ' . $ipdat->geoplugin_longitude . "\n";
-echo 'Currency Symbol: ' . $ipdat->geoplugin_currencySymbol . "\n";
-echo 'Currency Code: ' . $ipdat->geoplugin_currencyCode . "\n";
-echo 'Timezone: ' . $ipdat->geoplugin_timezone;
-?>
+    $_SESSION['country_name'] = $ipdat->geoplugin_countryName;
+    $_SESSION['city_name'] = $ipdat->geoplugin_city;
+    $_SESSION['Continent_Name'] = $ipdat->geoplugin_continentName;
+    $_SESSION['Latitude'] = $ipdat->geoplugin_latitude;
+    $_SESSION['Longitude'] = $ipdat->geoplugin_longitude;
+    $_SESSION['Timezone'] = $ipdat->geoplugin_timezone;
+
+    echo 'Ip address: ' .$ip ."\n";
+    echo 'Country Name: ' .$_SESSION['country_name'] . "\n";
+    echo 'City Name: ' . $_SESSION['city_name'] . "\n";
+    echo 'Continent Name: ' . $_SESSION['Continent_Name'] . "\n";
+    echo 'Latitude: ' . $_SESSION['Latitude'] . "\n";
+    echo 'Longitude: ' .$_SESSION['Longitude'] . "\n";
+    echo 'Currency Symbol: ' . $ipdat->geoplugin_currencySymbol . "\n";
+    echo 'Currency Code: ' . $ipdat->geoplugin_currencyCode . "\n";
+    echo 'Timezone: ' . $_SESSION['Timezone'];
+
+}
